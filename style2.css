@@ -1,0 +1,562 @@
+.reviews-page,
+.reviews-page * {
+  box-sizing: border-box;
+}
+
+.reviews-page {
+  background: #8f8389;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+
+.review-card {
+  background: #b9b9b9;
+  border-radius: 40px;
+  width: 725px;
+  height: 447px;
+  position: absolute;
+  left: 357px;
+  top: 482px;
+  box-shadow: 0px 0px 4px 10px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.this-is-by-far-one-of-the-friendliest-and-most-useful-websites-i-have-ever-used-it-s-convenient-to-use-and-straight-to-the-point-victor-govindasamy {
+  text-align: center;
+  font-family: "Karma-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  position: absolute;
+  left: 87px;
+  top: 206px;
+  width: 544px;
+  height: 138px;
+}
+
+.this-is-by-far-one-of-the-friendliest-and-most-useful-websites-i-have-ever-used-it-s-convenient-to-use-and-straight-to-the-point-victor-govindasamy-span {
+  color: #000000;
+}
+
+.this-is-by-far-one-of-the-friendliest-and-most-useful-websites-i-have-ever-used-it-s-convenient-to-use-and-straight-to-the-point-victor-govindasamy-span2 {
+  color: rgba(162, 72, 0, 0.87);
+}
+
+.star-ratings {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 184px;
+  height: 80px;
+  position: absolute;
+  left: 268px;
+  top: 116px;
+}
+
+.style-star {
+  flex-shrink: 0;
+  width: 50px;
+  height: 44px;
+  position: relative;
+  overflow: visible;
+}
+
+.style-star2 {
+  flex-shrink: 0;
+  width: 50px;
+  height: 44px;
+  position: relative;
+  overflow: visible;
+}
+
+.style-star3 {
+  flex-shrink: 0;
+  width: 50px;
+  height: 44px;
+  position: relative;
+  overflow: visible;
+}
+
+.style-star4 {
+  flex-shrink: 0;
+  width: 50px;
+  height: 44px;
+  position: relative;
+  overflow: visible;
+}
+
+.style-star5 {
+  flex-shrink: 0;
+  width: 50px;
+  height: 44px;
+  position: relative;
+  overflow: visible;
+}
+
+.flourish-2 {
+  width: 118.89px;
+  height: 41.97px;
+  position: absolute;
+  left: 690.89px;
+  top: 374px;
+  transform: translate(-129.97px, -8.81px);
+  overflow: visible;
+}
+
+.flourish-1 {
+  width: 111.89px;
+  height: 41.97px;
+  position: absolute;
+  left: 27.49px;
+  top: 373.53px;
+  overflow: visible;
+}
+
+.vector-5 {
+  width: 69.68px;
+  height: 52.78px;
+  position: absolute;
+  left: 634.14px;
+  top: 23.89px;
+  overflow: visible;
+}
+
+.vector-6 {
+  width: 72.06px;
+  height: 62.8px;
+  position: absolute;
+  left: 20.67px;
+  top: 22.95px;
+  overflow: visible;
+}
+
+.picture-frame {
+  background: #d37adf;
+  border-radius: 9999px;
+  width: 230px;
+  height: 231px;
+  position: absolute;
+  left: 605px;
+  top: 367px;
+  overflow: hidden;
+}
+
+.image {
+  border-radius: 9999px;
+  width: 197px;
+  height: 202px;
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.navigation {
+  background: #8f8389;
+  width: 1440px;
+  height: 224px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.main-nav {
+  background: #f4f1bb;
+  border-radius: 24px 24px 0px 0px;
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 629px;
+  height: 97px;
+  position: absolute;
+  left: 405px;
+  top: 127px;
+}
+
+.button-dog {
+  flex-shrink: 0;
+  width: 148px;
+  height: 71px;
+  position: relative;
+  overflow: hidden;
+}
+
+.dogs {
+  color: rgba(162, 72, 0, 0.87);
+  text-align: center;
+  font-family: "PlaypenSans-ExtraBold", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 800;
+  position: absolute;
+  left: 74px;
+  top: 21px;
+  width: 62px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dog {
+  width: 34.46%;
+  height: 57.75%;
+  position: absolute;
+  right: 58.11%;
+  left: 7.43%;
+  bottom: 19.72%;
+  top: 22.54%;
+  overflow: visible;
+}
+
+.button-cats {
+  border-style: solid;
+  border-color: #040404;
+  border-width: 0px 0px 0px 3px;
+  flex-shrink: 0;
+  width: 148px;
+  height: 71px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cats {
+  color: rgba(162, 72, 0, 0.87);
+  text-align: center;
+  font-family: "PlaypenSans-ExtraBold", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 800;
+  position: absolute;
+  left: 78px;
+  top: 21px;
+  width: 62px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cat-2 {
+  width: 66px;
+  height: 28px;
+  position: absolute;
+  left: calc(50% - 67px);
+  top: calc(50% - 15.5px);
+  overflow: visible;
+}
+
+.button-fish {
+  border-style: solid;
+  border-color: #040404;
+  border-width: 0px 0px 0px 3px;
+  flex-shrink: 0;
+  width: 148px;
+  height: 71px;
+  position: relative;
+  overflow: hidden;
+}
+
+.fish {
+  color: rgba(162, 72, 0, 0.87);
+  text-align: center;
+  font-family: "PlaypenSans-ExtraBold", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 800;
+  position: absolute;
+  left: 74px;
+  top: 21px;
+  width: 62px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fish2 {
+  width: 43.92%;
+  height: 80.28%;
+  position: absolute;
+  right: 50%;
+  left: 6.08%;
+  bottom: 12.68%;
+  top: 7.04%;
+  overflow: visible;
+}
+
+.button-birds {
+  border-style: solid;
+  border-color: #040404;
+  border-width: 0px 0px 0px 3px;
+  flex-shrink: 0;
+  width: 148px;
+  height: 71px;
+  position: relative;
+  overflow: hidden;
+}
+
+.birds {
+  color: rgba(162, 72, 0, 0.87);
+  text-align: center;
+  font-family: "PlaypenSans-ExtraBold", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 800;
+  position: absolute;
+  left: calc(50% - 10px);
+  top: 20px;
+  width: 84px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bird {
+  width: 44px;
+  height: 90px;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  overflow: visible;
+}
+
+.top-nav {
+  background: linear-gradient(to left, #d37adf, #d37adf),
+    linear-gradient(to left, #ffffff, #ffffff);
+  padding: 8px 16px 8px 16px;
+  width: 305px;
+  height: 56px;
+  position: absolute;
+  left: 1078px;
+  top: 36px;
+}
+
+.reviews-page2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Karma-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  position: absolute;
+  left: 64px;
+  top: 0px;
+  width: 172px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.border-2 {
+  border-style: solid;
+  border-color: #040404;
+  border-width: 2px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 305px;
+  height: 56px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.search-bar {
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 429px;
+  top: 32px;
+}
+
+.search-bar2 {
+  background: var(--schemes-surface-container-high, #ece6f0);
+  border-radius: 28px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 582px;
+  height: 68px;
+  max-width: 720px;
+  position: relative;
+  overflow: hidden;
+}
+
+.state-layer {
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+
+.content {
+  margin: 0 0 0 -16px;
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+
+.supporting-text {
+  color: var(--schemes-on-surface-variant, #49454f);
+  text-align: left;
+  font-family: "Karma-Regular", sans-serif;
+  font-size: 20px;
+  line-height: var(--static-body-large-line-height, 24px);
+  letter-spacing: var(--static-body-large-tracking, 0.5px);
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.trailing-elements {
+  margin: 0 0 0 -16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  translate: 0 -50%;
+}
+
+._1st-trailing-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+
+.content2 {
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.state-layer2 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 40px;
+  position: relative;
+}
+
+.icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+
+.logo {
+  border-radius: 20px;
+  width: 299px;
+  height: 64px;
+  position: absolute;
+  left: 39px;
+  top: 32px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.keyboard-arrow-down {
+  border-radius: 40px;
+  width: 71px;
+  height: 71px;
+  position: absolute;
+  left: 1154px;
+  top: 732px;
+  transform: translate(0px, -71px);
+  overflow: visible;
+  aspect-ratio: 1;
+}
+
+.keyboard-arrow-down2 {
+  border-radius: 40px;
+  width: 71px;
+  height: 71px;
+  position: absolute;
+  left: 291px;
+  top: 732px;
+  transform: translate(-71px, -71px);
+  overflow: visible;
+  aspect-ratio: 1;
+}
+
+.reviews {
+  color: #ffffff;
+  text-align: center;
+  font-family: "PlaypenSans-Bold", sans-serif;
+  font-size: 64px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  position: absolute;
+  left: 541px;
+  top: 263px;
+  width: 352px;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
