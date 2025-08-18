@@ -393,8 +393,7 @@
 }
 
 .top-nav {
-  background: linear-gradient(to left, #d37adf, #d37adf),
-    linear-gradient(to left, #ffffff, #ffffff);
+  background: #d37adf;
   padding: 8px 16px 8px 16px;
   width: 305px;
   height: 56px;
@@ -419,52 +418,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
 }
 
 .border-2 {
   border-style: solid;
   border-color: #040404;
-  border-width: 2px;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 305px;
-  height: 56px;
+  border-width: 3px;
   position: absolute;
   left: 0px;
   top: 0px;
-  overflow: hidden;
-}
-
-.search-bar {
-  border-radius: 50px;
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: 429px;
-  top: 32px;
-}
-
-.search-bar2 {
-  background: var(--schemes-surface-container-high, #ece6f0);
-  border-radius: 28px;
-  display: flex;
-  flex-direction: row;
-  gap: 4px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 582px;
-  height: 68px;
-  max-width: 720px;
-  position: relative;
-  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 
 .state-layer {
