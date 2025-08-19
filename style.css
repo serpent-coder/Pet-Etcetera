@@ -2,7 +2,7 @@
 
 .home-page,
 .home-page * {
-  box-sizing: 90%;
+  box-sizing: border-box;
 }
 
 .home-page {
