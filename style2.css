@@ -41,7 +41,7 @@
 }
 
 .this-is-by-far-one-of-the-friendliest-and-most-useful-websites-i-have-ever-used-it-s-convenient-to-use-and-straight-to-the-point-victor-govindasamy-span2 {
-  color: rgba(162, 72, 0, 0.87);
+  color: rgb(162, 73, 0);
 }
 
 .star-ratings {
@@ -160,11 +160,12 @@
   background: #8f8389;
   width: 1440px;
   height: 224px;
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 0px;
   box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.5);
   overflow: hidden;
+  z-index: 3;
 }
 
 .main-nav {
@@ -455,26 +456,6 @@
   overflow: hidden;
 }
 
-.state-layer2 {
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  height: 40px;
-  position: relative;
-}
-
-.icon {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-  overflow: visible;
-}
-
 .logo {
   border-radius: 20px;
   width: 299px;
@@ -526,4 +507,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
 }
