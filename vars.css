@@ -1,18 +1,17 @@
-/* Figma Styles of your File */
+
 :root {
   /* Colors */
   --primary-color: #a24900;
+  --lighter-primary: #ffb347;
   --secondary-color: #754492;
-  --fill-colour: #ffffff;
-  --background-color: #f4f1ee;
+  --lighter-secondary: #d37adf;
+  --white: #ffffff;
+  --background-color: #8f8389;
   --border-color: #040404;
   --shadow-color: rgba(0, 0, 0, 0.25);
-  --gradient-start: #d37adf;
-  --gradient-end: #754492;
-  --gradient-angle: to left;
   /* Fonts */
   --main-font: "Playpen Sans", sans-serif;
-  --secondary-font: "Karma", serif;
+  --secondary-font: "Karma", sans-serif;
   /* Effects */
 }
 /* Figma Color Variables of your File */
