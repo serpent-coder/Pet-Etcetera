@@ -9,9 +9,12 @@
   --background-color: #8f8389;
   --border-color: #040404;
   --shadow-color: rgba(0, 0, 0, 0.25);
+  --schemes-on-surface-variant: #49454f;
   /* Fonts */
   --main-font: "Playpen Sans", sans-serif;
   --secondary-font: "Karma", sans-serif;
   /* Effects */
+  --static-body-large-line-height: 24px;
+  --static-body-large-tracking: 0.5px;
 }
 /* Figma Color Variables of your File */

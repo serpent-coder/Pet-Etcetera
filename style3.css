@@ -2,16 +2,22 @@
 .dog-page * {
   box-sizing: border-box;
 }
+
+/* styling the size of the web page and the background color */
 .dog-page {
   background: #8f8389;
   height: 1024px;
   position: relative;
   overflow-y: auto;
 }
+
+/* styling the group that contains all the elements of the page */
 .group-1 {
   position: absolute;
   inset: 0;
 }
+
+/* styling the section that contains information about labs */
 .info-labs {
   width: 1218px;
   height: 679px;
@@ -19,6 +25,8 @@
   left: 50px;
   top: 344px;
 }
+
+/* styling the table that contains the information about labs */
 .table {
   background: #ffffff;
   border-radius: 20px;
@@ -37,6 +45,8 @@
   top: 76px;
   overflow: hidden;
 }
+
+/* styling each row of the table */
 .row {
   background: #f4f1bb;
   display: flex;
@@ -50,6 +60,8 @@
   position: relative;
   overflow: hidden;
 }
+
+/* styling each cell of the table */
 .cell {
   background: #f4f1bb;
   border-style: solid;
@@ -64,6 +76,8 @@
   flex: 1;
   position: relative;
 }
+
+/* styling the content inside each cell of the table */
 .content {
   padding: 10px 12px 10px 12px;
   display: flex;
@@ -76,6 +90,8 @@
   position: relative;
   overflow: hidden;
 }
+
+/* styling the text inside each cell of the table */
 .text {
   color: #000000;
   text-align: left;
@@ -86,6 +102,8 @@
   position: relative;
   flex: 1;
 }
+
+/* this is the same as the previous three classes but for the second row of the table */
 .cell2 {
   background: #f4f1bb;
   border-style: solid;
@@ -100,6 +118,7 @@
   flex: 1;
   position: relative;
 }
+
 .text2 {
   color: #000000;
   text-align: left;
@@ -113,6 +132,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .row2 {
   background: #f4f1bb;
   display: flex;
@@ -125,6 +145,8 @@
   position: relative;
   overflow: hidden;
 }
+
+/* this is the same as the previous three classes but for the third row of the table */
 .cell3 {
   background: rgba(255, 255, 255, 0);
   border-style: solid;
@@ -139,6 +161,7 @@
   flex: 1;
   position: relative;
 }
+
 .text3 {
   color: #000000;
   text-align: left;
@@ -149,6 +172,7 @@
   position: relative;
   flex: 1;
 }
+
 .row3 {
   background: #f4f1bb;
   display: flex;
@@ -162,6 +186,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .frame-2 {
   border-radius: 40px;
   border-style: solid;
@@ -173,6 +198,8 @@
   left: 980px;
   top: 452px;
 }
+
+/* styling the text that describes the speciality of labs */
 .speciality-they-are-great-face-lickers-and-they-earned-the-title-of-the-friendliest-looking-dogs-ever {
   color: #ffffff;
   text-align: center;
@@ -181,16 +208,21 @@
   height: 164px;
   -webkit-text-stroke: 0.3px #040404;
 }
+
+/* styling the spans inside the speciality text */
 .speciality-they-are-great-face-lickers-and-they-earned-the-title-of-the-friendliest-looking-dogs-ever-span {
   font-family: "PlaypenSans-Bold", sans-serif;
   font-size: 24px;
   font-weight: 700;
 }
+
+/* styling the spans inside the speciality text */
 .speciality-they-are-great-face-lickers-and-they-earned-the-title-of-the-friendliest-looking-dogs-ever-span2 {
   font-family: "PlaypenSans-Bold", sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
+
 .personality-friendly-social-labs-are-outgoing-and-friendly-to-other-dogs-and-people-rarely-are-aggressive-and-very-social-energetic-playful-they-re-high-energy-dogs-who-love-to-play-fetch-or-swim-intelligent-trainable-very-clever-and-obedient-dogs-loyal-gentle-known-for-forming-deep-affectionate-bonds-with-their-owners-versatile-adaptable-they-adapt-well-whether-they-are-a-service-or-family-dog {
   color: #ffffff;
   text-align: center;
@@ -201,22 +233,27 @@
   height: 269px;
   padding: 1%;
 }
+
 .personality-friendly-social-labs-are-outgoing-and-friendly-to-other-dogs-and-people-rarely-are-aggressive-and-very-social-energetic-playful-they-re-high-energy-dogs-who-love-to-play-fetch-or-swim-intelligent-trainable-very-clever-and-obedient-dogs-loyal-gentle-known-for-forming-deep-affectionate-bonds-with-their-owners-versatile-adaptable-they-adapt-well-whether-they-are-a-service-or-family-dog-span {
   font-family: "PlaypenSans-Bold", sans-serif;
   font-size: 24px;
   font-weight: 700;
 }
+
 .personality-friendly-social-labs-are-outgoing-and-friendly-to-other-dogs-and-people-rarely-are-aggressive-and-very-social-energetic-playful-they-re-high-energy-dogs-who-love-to-play-fetch-or-swim-intelligent-trainable-very-clever-and-obedient-dogs-loyal-gentle-known-for-forming-deep-affectionate-bonds-with-their-owners-versatile-adaptable-they-adapt-well-whether-they-are-a-service-or-family-dog-span2 {
   font-family: "Karma-Bold", sans-serif;
   font-size: 16px;
   font-weight: 700;
   text-decoration: underline;
 }
+
 .personality-friendly-social-labs-are-outgoing-and-friendly-to-other-dogs-and-people-rarely-are-aggressive-and-very-social-energetic-playful-they-re-high-energy-dogs-who-love-to-play-fetch-or-swim-intelligent-trainable-very-clever-and-obedient-dogs-loyal-gentle-known-for-forming-deep-affectionate-bonds-with-their-owners-versatile-adaptable-they-adapt-well-whether-they-are-a-service-or-family-dog-span3 {
   font-family: "Karma-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
+
+/* styling the postion and size of the lab image */
 .lab-image {
   border-radius: 40px;
   width: 399px;
@@ -227,6 +264,8 @@
   overflow: hidden;
   object-fit: cover;
 }
+
+/* styling the position and size of the map image */
 .map-1 {
   border-radius: 40px;
   width: 324px;
@@ -237,6 +276,8 @@
   object-fit: cover;
   aspect-ratio: 324/338;
 }
+
+/* styling the section title */
 .labradors {
   color: #754492;
   text-align: center;
@@ -250,6 +291,8 @@
   width: 372px;
   height: 91px;
 }
+
+/* styling the section that contains care information about labs */
 .care-balanced-diet-portion-control-feed-twice-daily-with-quality-large-breed-food-purina-is-a-good-brand-avoid-overfeeding-to-prevent-obesity-and-joint-issues-plenty-of-exercise-aim-for-at-least-1-2-hours-daily-walks-fetch-swimming-agility-to-keep-the-and-prevent-destructive-behaviours-routine-grooming-hygiene-brush-2-3-weekly-more-during-shedding-seasons-clean-ears-regularly-trim-nails-and-brush-teeth-2-3-times-per-week-early-training-mental-stimulation-buys-toys-and-other-items-they-can-play-with-and-uses-positive-reinforcement-to-encourage-obedience-veterinary-care-health-monitoring-schedule-regular-vet-check-ups-to-prevent-health-issues-and-consider-pet-insurance {
   color: #ffffff;
   text-align: center;
@@ -260,22 +303,27 @@
   height: 366px;
   padding: 20px;
 }
+
 .care-balanced-diet-portion-control-feed-twice-daily-with-quality-large-breed-food-purina-is-a-good-brand-avoid-overfeeding-to-prevent-obesity-and-joint-issues-plenty-of-exercise-aim-for-at-least-1-2-hours-daily-walks-fetch-swimming-agility-to-keep-the-and-prevent-destructive-behaviours-routine-grooming-hygiene-brush-2-3-weekly-more-during-shedding-seasons-clean-ears-regularly-trim-nails-and-brush-teeth-2-3-times-per-week-early-training-mental-stimulation-buys-toys-and-other-items-they-can-play-with-and-uses-positive-reinforcement-to-encourage-obedience-veterinary-care-health-monitoring-schedule-regular-vet-check-ups-to-prevent-health-issues-and-consider-pet-insurance-span {
   font-family: "PlaypenSans-Bold", sans-serif;
   font-size: 24px;
   font-weight: 700;
 }
+
 .care-balanced-diet-portion-control-feed-twice-daily-with-quality-large-breed-food-purina-is-a-good-brand-avoid-overfeeding-to-prevent-obesity-and-joint-issues-plenty-of-exercise-aim-for-at-least-1-2-hours-daily-walks-fetch-swimming-agility-to-keep-the-and-prevent-destructive-behaviours-routine-grooming-hygiene-brush-2-3-weekly-more-during-shedding-seasons-clean-ears-regularly-trim-nails-and-brush-teeth-2-3-times-per-week-early-training-mental-stimulation-buys-toys-and-other-items-they-can-play-with-and-uses-positive-reinforcement-to-encourage-obedience-veterinary-care-health-monitoring-schedule-regular-vet-check-ups-to-prevent-health-issues-and-consider-pet-insurance-span2 {
   font-family: "Karma-Bold", sans-serif;
   font-size: 16px;
   font-weight: 700;
   text-decoration: underline;
 }
+
 .care-balanced-diet-portion-control-feed-twice-daily-with-quality-large-breed-food-purina-is-a-good-brand-avoid-overfeeding-to-prevent-obesity-and-joint-issues-plenty-of-exercise-aim-for-at-least-1-2-hours-daily-walks-fetch-swimming-agility-to-keep-the-and-prevent-destructive-behaviours-routine-grooming-hygiene-brush-2-3-weekly-more-during-shedding-seasons-clean-ears-regularly-trim-nails-and-brush-teeth-2-3-times-per-week-early-training-mental-stimulation-buys-toys-and-other-items-they-can-play-with-and-uses-positive-reinforcement-to-encourage-obedience-veterinary-care-health-monitoring-schedule-regular-vet-check-ups-to-prevent-health-issues-and-consider-pet-insurance-span3 {
   font-family: "Karma-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
+
+/* styling the title card behind the main title */
 .title-card {
   background: rgba(162, 70, 0, 0.87);
   width: 859px;
@@ -285,6 +333,7 @@
   top: 246px;
   overflow: hidden;
 }
+
 .dogs-are-pure-bundles-of-joy {
   color: #ffffff;
   text-align: center;
@@ -298,6 +347,8 @@
   width: 851px;
   height: 98px;
 }
+
+/* styling the navigation bar at the top of the page */
 .navigation {
   background: #8f8389;
   width: 1440px;
@@ -308,6 +359,7 @@
   box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.5);
   overflow: hidden;
 }
+
 .main-nav {
   background: #f4f1bb;
   border-radius: 24px 24px 0px 0px;
@@ -323,6 +375,7 @@
   left: 405px;
   top: 127px;
 }
+
 .button-dog {
   flex-shrink: 0;
   width: 148px;
@@ -330,6 +383,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .dogs {
   color: rgba(162, 72, 0, 0.87);
   text-align: center;
@@ -347,6 +401,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .dog {
   width: 34.46%;
   height: 57.75%;
@@ -357,6 +412,7 @@
   top: 22.54%;
   overflow: visible;
 }
+
 .button-cats {
   border-style: solid;
   border-color: #040404;
@@ -367,6 +423,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .cats {
   color: rgba(162, 72, 0, 0.87);
   text-align: center;
@@ -384,6 +441,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .cat-2 {
   width: 66px;
   height: 28px;
@@ -392,6 +450,7 @@
   top: calc(50% - 15.5px);
   overflow: visible;
 }
+
 .button-fish {
   border-style: solid;
   border-color: #040404;
@@ -402,6 +461,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .fish {
   color: rgba(162, 72, 0, 0.87);
   text-align: center;
@@ -419,6 +479,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .fish2 {
   width: 43.92%;
   height: 80.28%;
@@ -429,6 +490,7 @@
   top: 7.04%;
   overflow: visible;
 }
+
 .button-birds {
   border-style: solid;
   border-color: #040404;
@@ -439,6 +501,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .birds {
   color: rgba(162, 72, 0, 0.87);
   text-align: center;
@@ -456,6 +519,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .bird {
   width: 44px;
   height: 90px;
@@ -464,6 +528,7 @@
   top: 0px;
   overflow: visible;
 }
+
 .top-nav {
   background: linear-gradient(to left, #d37adf, #d37adf),
     linear-gradient(to left, #ffffff, #ffffff);
@@ -474,6 +539,7 @@
   left: 1078px;
   top: 36px;
 }
+
 .reviews-page {
   color: #ffffff;
   text-align: center;
@@ -492,10 +558,11 @@
   justify-content: center;
   z-index: 2;
 }
+
 .border-2 {
   border-style: solid;
   border-color: #040404;
-  border-width: 2px;
+  border-width: 3px;
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -510,6 +577,7 @@
   overflow: hidden;
   z-index: 1;
 }
+
 .state-layer {
   padding: 4px;
   display: flex;
@@ -520,6 +588,7 @@
   flex: 1;
   position: relative;
 }
+
 .content2 {
   margin: 0 0 0 -16px;
   padding: 0px 20px 0px 20px;
@@ -532,43 +601,8 @@
   flex: 1;
   position: relative;
 }
-.supporting-text {
-  color: var(--schemes-on-surface-variant, #49454f);
-  text-align: left;
-  font-family: "Karma-Regular", sans-serif;
-  font-size: 20px;
-  line-height: var(--static-body-large-line-height, 24px);
-  letter-spacing: var(--static-body-large-tracking, 0.5px);
-  font-weight: 400;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.trailing-elements {
-  margin: 0 0 0 -16px;
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: center;
-  justify-content: flex-end;
-  flex-shrink: 0;
-  position: absolute;
-  right: 4px;
-  top: 50%;
-  translate: 0 -50%;
-}
-._1st-trailing-icon {
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 48px;
-  height: 48px;
-  position: relative;
-}
+
+/* styling the circle behind the logo */
 .content3 {
   border-radius: 100px;
   display: flex;
@@ -581,7 +615,8 @@
   position: relative;
   overflow: hidden;
 }
-  
+
+/* styling the logo image */
 .logo {
   border-radius: 20px;
   width: 299px;
@@ -591,4 +626,10 @@
   top: 32px;
   overflow: hidden;
   object-fit: cover;
+}
+
+/* removing the default styling of links */
+a {
+  text-decoration: none;
+  color: inherit;
 }

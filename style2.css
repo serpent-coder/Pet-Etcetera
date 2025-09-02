@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 
+/* styling the overall reviews page */
 .reviews-page {
   background: #8f8389;
   height: 1024px;
@@ -10,6 +11,7 @@
   overflow: hidden;
 }
 
+/* styling the review card that contains the text and star ratings */
 .review-card {
   background: #b9b9b9;
   border-radius: 40px;
@@ -22,6 +24,7 @@
   overflow: hidden;
 }
 
+/* styling the main review text */
 .this-is-by-far-one-of-the-friendliest-and-most-useful-websites-i-have-ever-used-it-s-convenient-to-use-and-straight-to-the-point-victor-govindasamy {
   text-align: center;
   font-family: "Karma-Regular", sans-serif;
@@ -44,6 +47,7 @@
   color: rgb(162, 73, 0);
 }
 
+/* styling the section that contains the star ratings */
 .star-ratings {
   display: flex;
   flex-direction: row;
@@ -97,6 +101,7 @@
   overflow: visible;
 }
 
+/* styling the decorative flourishes on either side of the review card */
 .flourish-2 {
   width: 118.89px;
   height: 41.97px;
@@ -134,6 +139,7 @@
   overflow: visible;
 }
 
+/* styling the circular picture frame around the profile pic */
 .picture-frame {
   background: #d37adf;
   border-radius: 9999px;
@@ -145,6 +151,7 @@
   overflow: hidden;
 }
 
+/* styling the profile pic */
 .image {
   border-radius: 9999px;
   width: 197px;
@@ -156,6 +163,7 @@
   object-fit: cover;
 }
 
+/* styling the navigation bar at the top of the page */
 .navigation {
   background: #8f8389;
   width: 1440px;
@@ -348,6 +356,7 @@
   top: 36px;
 }
 
+/* styling the "Reviews" text in the navigation bar */
 .reviews-page2 {
   color: #ffffff;
   text-align: center;
@@ -367,6 +376,7 @@
   z-index: 2;
 }
 
+/* styling the border around the navigation bar */
 .border-2 {
   border-style: solid;
   border-color: #040404;
@@ -390,6 +400,7 @@
   position: relative;
 }
 
+/* styling the section that contains the logo and navigation buttons */
 .content {
   margin: 0 0 0 -16px;
   padding: 0px 20px 0px 20px;
@@ -400,46 +411,6 @@
   justify-content: flex-start;
   align-self: stretch;
   flex: 1;
-  position: relative;
-}
-
-.supporting-text {
-  color: var(--schemes-on-surface-variant, #49454f);
-  text-align: left;
-  font-family: "Karma-Regular", sans-serif;
-  font-size: 20px;
-  line-height: var(--static-body-large-line-height, 24px);
-  letter-spacing: var(--static-body-large-tracking, 0.5px);
-  font-weight: 400;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.trailing-elements {
-  margin: 0 0 0 -16px;
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: center;
-  justify-content: flex-end;
-  flex-shrink: 0;
-  position: absolute;
-  right: 4px;
-  top: 50%;
-  translate: 0 -50%;
-}
-
-._1st-trailing-icon {
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 48px;
-  height: 48px;
   position: relative;
 }
 
@@ -456,6 +427,7 @@
   overflow: hidden;
 }
 
+/* styling the logo image */
 .logo {
   border-radius: 20px;
   width: 299px;
@@ -467,6 +439,7 @@
   object-fit: cover;
 }
 
+/* styling the arrows on either side of the review card */
 .keyboard-arrow-down {
   border-radius: 40px;
   width: 71px;
@@ -491,6 +464,7 @@
   aspect-ratio: 1;
 }
 
+/* styling the main "Reviews" title */
 .reviews {
   color: #ffffff;
   text-align: center;
@@ -508,4 +482,10 @@
   align-items: center;
   justify-content: center;
   z-index: 2;
+}
+
+/* removing the default styling of links */
+a {
+  text-decoration: none;
+  color: inherit;
 }
