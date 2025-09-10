@@ -6,6 +6,8 @@ It has a five-colour colour palette and fleshed out text with images</p>
 <h3>Installation</h3>
 There is no installation of third party apps but you will need an extension to run html to use the website.
 <h3>Authors</h3>
-<p>Kaden Govindasamy - 25035@trinityschools.nz</p>
-<h3>Relesed Version History</h3>
-* v1 - Three working pages
+<p>Kaden Govindasamy - 25035@trinnityschools.nz</p>
+<h3>Released Version History</h3>
+* v1.0 - Three working pages
+* v2.0 - Clearer distinction, better formatting and additional comments to code
+* v3.0 - The code has been further verified and tested for bugs
